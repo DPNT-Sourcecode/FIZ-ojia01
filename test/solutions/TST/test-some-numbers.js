@@ -47,3 +47,21 @@ describe('TST challenge', function() {
 		assert.equal(one("EEEEBBAAFAAABBFBCDCAAFAAFF"), 710);
 	});
 });
+
+describe('TST challenge', function() {
+	it('test8', function() {
+		assert.equal(one("S"), 20);
+	});
+});
+
+describe('TST challenge', function() {
+	it('test9', function() {
+		assert.equal(one("ST"), 40);
+	});
+});
+
+describe('TST challenge', function() {
+	it('test10', function() {
+		assert.equal(one("ZTSX"), 62);
+	});
+});
