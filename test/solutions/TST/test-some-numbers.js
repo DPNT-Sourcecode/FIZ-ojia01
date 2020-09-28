@@ -68,6 +68,6 @@ describe('TST challenge', function() {
 
 describe('TST challenge', function() {
 	it('test11', function() {
-		assert.equal(one("XXZXXXX"), 107);
+		assert.equal(one("ZTSZYXX"), 107);
 	});
 });
