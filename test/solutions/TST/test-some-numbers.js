@@ -20,7 +20,7 @@ describe('TST challenge', function() {
 
 describe('TST challenge', function() {
 	it('show one', function() {
-		assert.equal(one("AAABBB"), 205);
+		assert.equal(one("AAAAAA"), 250);
 	});
 });
 
