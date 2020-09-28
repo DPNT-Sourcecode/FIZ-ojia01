@@ -14,7 +14,7 @@ describe('TST challenge', function() {
 
 describe('TST challenge', function() {
 	it('test2', function() {
-		assert.equal(one("B"), 30);
+		assert.equal(one("BB"), 45);
 	});
 });
 
@@ -47,4 +47,5 @@ describe('TST challenge', function() {
 		assert.equal(one("EEEEBBAAFAAABBFBCDCAAFAAFF"), 710);
 	});
 });
+
 
