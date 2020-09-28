@@ -7,37 +7,37 @@ const one = require('../../../lib/solutions/CHK/checkout');
 
 
 describe('TST challenge', function() {
-	it('show one', function() {
+	it('test1', function() {
 		assert.equal(one("AAAAAAA"), 300);
 	});
 });
 
 describe('TST challenge', function() {
-	it('show one', function() {
+	it('test2', function() {
 		assert.equal(one("AAABBCAAABBDAABD"), 500);
 	});
 });
 
 describe('TST challenge', function() {
-	it('show one', function() {
-		assert.equal(one("EE"), 80);
+	it('test3', function() {
+		assert.equal(one("FFFF"), 30);
 	});
 });
 
 describe('TST challenge', function() {
-	it('show one', function() {
+	it('test4', function() {
 		assert.equal(one("ABCD"), 115);
 	});
 });
 
 describe('TST challenge', function() {
-	it('show one', function() {
+	it('test5', function() {
 		assert.equal(one("CDCD"), 70);
 	});
 });
 
 describe('TST challenge', function() {
-	it('show one', function() {
+	it('test6', function() {
 		assert.equal(one("EEEEBBAAAAABBBCDCAAAA"), 670);
 	});
 });
