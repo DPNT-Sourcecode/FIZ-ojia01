@@ -42,3 +42,9 @@ describe('TST challenge', function() {
 	});
 });
 
+describe('TST challenge', function() {
+	it('test7', function() {
+		assert.equal(one("EEEEBBAAFAAABBFBCDCAAFAAFF"), 710);
+	});
+});
+
