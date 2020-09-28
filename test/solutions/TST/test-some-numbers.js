@@ -8,13 +8,13 @@ const one = require('../../../lib/solutions/CHK/checkout');
 
 describe('TST challenge', function() {
 	it('show one', function() {
-		assert.equal(one("AAAAAAA"), 310);
+		assert.equal(one("AAAAAAA"), 300);
 	});
 });
 
 describe('TST challenge', function() {
 	it('show one', function() {
-		assert.equal(one("AAABBCAAABBDAABD"), 530);
+		assert.equal(one("AAABBCAAABBDAABD"), 500);
 	});
 });
 
@@ -38,6 +38,6 @@ describe('TST challenge', function() {
 
 describe('TST challenge', function() {
 	it('show one', function() {
-		assert.equal(one("BBCAAAD"), 210);
+		assert.equal(one("EEEEBBAAAAABBBCDCAAAA"), 670);
 	});
 });
