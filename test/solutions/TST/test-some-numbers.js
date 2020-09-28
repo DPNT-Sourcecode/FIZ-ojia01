@@ -47,4 +47,3 @@ describe('TST challenge', function() {
 		assert.equal(one("EEEEBBAAFAAABBFBCDCAAFAAFF"), 710);
 	});
 });
-
