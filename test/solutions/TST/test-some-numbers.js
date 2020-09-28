@@ -3,12 +3,17 @@ var describe = mocha.describe
 var it = mocha.it
 var assert = require('assert');
 
-const one = require('../../../lib/solutions/TST/one');
-// noinspection JSUnusedLocalSymbols
-const two = require('../../../lib/solutions/TST/two');
+const one = require('../../../lib/solutions/CHK/checkout');
+
 
 describe('TST challenge', function() {
 	it('show one', function() {
-		assert.equal(one(), 1);
+		assert.equal(one("AAAAAAA"), 310);
+	});
+});
+
+describe('TST challenge', function() {
+	it('show one', function() {
+		assert.equal(one("AAABBCAAABBDAABD"), 530);
 	});
 });
