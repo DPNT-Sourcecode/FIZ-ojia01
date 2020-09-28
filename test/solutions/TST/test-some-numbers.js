@@ -65,3 +65,9 @@ describe('TST challenge', function() {
 		assert.equal(one("ZTSX"), 62);
 	});
 });
+
+describe('TST challenge', function() {
+	it('test11', function() {
+		assert.equal(one("ZTSZYXX"), 107);
+	});
+});
