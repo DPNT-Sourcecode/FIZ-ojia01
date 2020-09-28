@@ -17,3 +17,27 @@ describe('TST challenge', function() {
 		assert.equal(one("AAABBCAAABBDAABD"), 530);
 	});
 });
+
+describe('TST challenge', function() {
+	it('show one', function() {
+		assert.equal(one("AAABBB"), 205);
+	});
+});
+
+describe('TST challenge', function() {
+	it('show one', function() {
+		assert.equal(one("ABCD"), 115);
+	});
+});
+
+describe('TST challenge', function() {
+	it('show one', function() {
+		assert.equal(one("CDCD"), 70);
+	});
+});
+
+describe('TST challenge', function() {
+	it('show one', function() {
+		assert.equal(one("BBCAAAD"), 210);
+	});
+});
